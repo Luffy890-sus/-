@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media(min-width: 1000px){
+    .contenir-3{
+        max-width: 1420px;
+        padding: 0px 20px;
+        margin: auto;
+    }
+}
+
+.parent-21 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 32px;
+}
